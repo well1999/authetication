@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstorewell"
+version = "0.1.0"
+description = "bookstore api"
+authors = ["wellersonpch <wellersonpch1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "pytes"
+factory-boy = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
